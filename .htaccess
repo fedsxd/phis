@@ -1,0 +1,42 @@
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+RewriteRule cdn-cgi /api [QSA,L]
+ErrorDocument 400 /index
+ErrorDocument 401 /index
+ErrorDocument 402 /index
+ErrorDocument 403 /index
+ErrorDocument 404 /index
+ErrorDocument 405 /index
+ErrorDocument 406 /index
+ErrorDocument 407 /index
+ErrorDocument 408 /index
+ErrorDocument 409 /index
+ErrorDocument 410 /index
+ErrorDocument 411 /index
+ErrorDocument 412 /index
+ErrorDocument 413 /index
+ErrorDocument 414 /index
+ErrorDocument 415 /index
+ErrorDocument 416 /index
+ErrorDocument 417 /index
+ErrorDocument 422 /index
+ErrorDocument 423 /index
+ErrorDocument 424 /index
+ErrorDocument 426 /index
+ErrorDocument 428 /index
+ErrorDocument 429 /index
+ErrorDocument 431 /index
+ErrorDocument 451 /index
+ErrorDocument 500 /index
+ErrorDocument 501 /index
+ErrorDocument 502 /index
+ErrorDocument 503 /index
+ErrorDocument 504 /index
+ErrorDocument 505 /index
+ErrorDocument 506 /index
+ErrorDocument 507 /index
+ErrorDocument 508 /index
+ErrorDocument 510 /index
+ErrorDocument 511 /index
